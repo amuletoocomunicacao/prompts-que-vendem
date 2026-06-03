@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>50 Prompts que Vendem &#8212; Amuleto Comunica&#231;&#227;o</title>
+  <meta name="description" content="50 prompts prontos para o ChatGPT. Copie, cole e comece a vender nas redes sociais hoje mesmo. R$37 com acesso imediato.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;0,900;1,400&family=Caveat:wght@700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --roxo-escuro: #14042D;
+      --roxo:        #6B21A8;
+      --roxo-medio:  #3D0A6B;
+      --amarelo:     #F5C200;
+      --branco:      #FFFFFF;
+      --off-white:   #F0E6FF;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: var(--roxo-escuro);
+      color: var(--branco);
+      line-height: 1.6;
+    }
+
+    /* &#9472;&#9472; UTILIT&#193;RIOS &#9472;&#9472; */
+    .container { max-width: 780px; margin: 0 auto; padding: 0 24px; }
+    .amarelo   { color: var(--amarelo); }
+    .script    { font-family: 'Caveat', cursive; font-size: 1.3em; }
+
+    /* &#9472;&#9472; BTN CTA &#9472;&#9472; */
+    .btn-cta {
+      display: inline-block;
+      background: var(--amarelo);
+      color: var(--roxo-escuro);
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900;
+      font-size: 1.15rem;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 20px 48px;
+      border-radius: 50px;
+      transition: transform .15s, box-shadow .15s;
+      box-shadow: 0 4px 24px rgba(245,194,0,.35);
+    }
+    .btn-cta:hover { transform: translateY(-2px); box-shadow: 0 8px 32px rgba(245,194,0,.5); }
+    .btn-cta.large { font-size: 1.3rem; padding: 24px 56px; }
+
+    /* &#9472;&#9472; BARRA TOPO &#9472;&#9472; */
+    .topbar {
+      background: var(--amarelo);
+      color: var(--roxo-escuro);
+      text-align: center;
+      font-weight: 700;
+      font-size: .88rem;
+      letter-spacing: .06em;
+      padding: 10px 16px;
+    }
+
+    /* &#9472;&#9472; HEADER / HERO &#9472;&#9472; */
+    .hero {
+      padding: 64px 24px 72px;
+      text-align: center;
+      background: linear-gradient(180deg, var(--roxo-escuro) 0%, var(--roxo-medio) 100%);
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at 50% 0%, rgba(107,33,168,.4) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .logo-hero {
+      width: 140px;
+      margin-bottom: 28px;
+      filter: brightness(0) invert(1);
+    }
+    .hero-eyebrow {
+      font-size: .85rem;
+      font-weight: 600;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      color: var(--off-white);
+      margin-bottom: 16px;
+    }
+    .hero h1 {
+      font-size: clamp(2.4rem, 7vw, 4.2rem);
+      font-weight: 900;
+      line-height: 1.05;
+      margin-bottom: 16px;
+    }
+    .hero-sub {
+      font-size: 1.15rem;
+      color: var(--off-white);
+      max-width: 540px;
+      margin: 0 auto 36px;
+      font-weight: 400;
+    }
+    .hero-price {
+      font-size: .95rem;
+      color: var(--off-white);
+      margin-top: 16px;
+    }
+
+    /* &#9472;&#9472; DOR &#9472;&#9472; */
+    .section-dor {
+      background: var(--roxo-escuro);
+      padding: 72px 24px;
+      text-align: center;
+    }
+    .section-dor h2 {
+      font-size: clamp(1.6rem, 4vw, 2.4rem);
+      font-weight: 900;
+      margin-bottom: 24px;
+      line-height: 1.15;
+    }
+    .dor-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      max-width: 560px;
+      margin: 0 auto 40px;
+      text-align: left;
+    }
+    .dor-list li {
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+      font-size: 1.05rem;
+      color: var(--off-white);
+    }
+    .dor-list li::before {
+      content: '&#10007;';
+      color: var(--amarelo);
+      font-weight: 900;
+      font-size: 1.1rem;
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+    .virada {
+      font-family: 'Caveat', cursive;
+      font-size: 2rem;
+      color: var(--amarelo);
+      margin-top: 8px;
+    }
+
+    /* &#9472;&#9472; SOLU&#199;&#195;O &#9472;&#9472; */
+    .section-solucao {
+      background: var(--roxo-medio);
+      padding: 72px 24px;
+      text-align: center;
+    }
+    .section-solucao h2 {
+      font-size: clamp(1.8rem, 5vw, 3rem);
+      font-weight: 900;
+      margin-bottom: 16px;
+      line-height: 1.1;
+    }
+    .section-solucao p {
+      font-size: 1.1rem;
+      color: var(--off-white);
+      max-width: 580px;
+      margin: 0 auto 48px;
+    }
+
+    /* &#9472;&#9472; CATEGORIAS &#9472;&#9472; */
+    .categorias {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+      max-width: 780px;
+      margin: 0 auto 48px;
+    }
+    .categoria-card {
+      background: rgba(255,255,255,.07);
+      border: 1px solid rgba(255,255,255,.12);
+      border-radius: 16px;
+      padding: 24px 20px;
+      text-align: left;
+      transition: border-color .2s;
+    }
+    .categoria-card:hover { border-color: var(--amarelo); }
+    .cat-icon { font-size: 1.8rem; margin-bottom: 10px; }
+    .cat-titulo { font-weight: 700; font-size: 1rem; margin-bottom: 4px; }
+    .cat-desc { font-size: .88rem; color: var(--off-white); line-height: 1.4; }
+    .cat-num {
+      display: inline-block;
+      background: var(--amarelo);
+      color: var(--roxo-escuro);
+      font-weight: 900;
+      font-size: .75rem;
+      padding: 2px 8px;
+      border-radius: 20px;
+      margin-bottom: 8px;
+    }
+
+    /* &#9472;&#9472; COMO FUNCIONA &#9472;&#9472; */
+    .section-como {
+      background: var(--roxo-escuro);
+      padding: 72px 24px;
+      text-align: center;
+    }
+    .section-como h2 {
+      font-size: clamp(1.6rem, 4vw, 2.4rem);
+      font-weight: 900;
+      margin-bottom: 48px;
+    }
+    .passos {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      max-width: 560px;
+      margin: 0 auto 48px;
+    }
+    .passo {
+      display: flex;
+      gap: 20px;
+      align-items: flex-start;
+      text-align: left;
+    }
+    .passo-num {
+      background: var(--amarelo);
+      color: var(--roxo-escuro);
+      font-weight: 900;
+      font-size: 1rem;
+      min-width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .passo-texto strong { display: block; font-size: 1.05rem; margin-bottom: 2px; }
+    .passo-texto span { font-size: .92rem; color: var(--off-white); }
+
+    /* &#9472;&#9472; PROVA SOCIAL / PARA QUEM &#201; &#9472;&#9472; */
+    .section-paraquem {
+      background: var(--roxo-medio);
+      padding: 72px 24px;
+      text-align: center;
+    }
+    .section-paraquem h2 {
+      font-size: clamp(1.6rem, 4vw, 2.4rem);
+      font-weight: 900;
+      margin-bottom: 32px;
+    }
+    .paraquem-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      max-width: 520px;
+      margin: 0 auto 48px;
+      text-align: left;
+    }
+    .paraquem-list li {
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+      font-size: 1.05rem;
+    }
+    .paraquem-list li::before {
+      content: '&#10003;';
+      color: var(--amarelo);
+      font-weight: 900;
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+
+    /* &#9472;&#9472; OFERTA / PRE&#199;O &#9472;&#9472; */
+    .section-oferta {
+      background: linear-gradient(180deg, var(--roxo-escuro) 0%, var(--roxo-medio) 100%);
+      padding: 80px 24px;
+      text-align: center;
+    }
+    .oferta-box {
+      background: rgba(255,255,255,.05);
+      border: 2px solid var(--amarelo);
+      border-radius: 24px;
+      padding: 48px 32px;
+      max-width: 480px;
+      margin: 0 auto;
+    }
+    .oferta-titulo {
+      font-size: 1rem;
+      font-weight: 600;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: var(--off-white);
+      margin-bottom: 8px;
+    }
+    .oferta-produto { font-size: 1.5rem; font-weight: 900; margin-bottom: 24px; }
+    .oferta-inclui {
+      list-style: none;
+      text-align: left;
+      margin-bottom: 32px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .oferta-inclui li {
+      display: flex;
+      gap: 10px;
+      font-size: .97rem;
+      color: var(--off-white);
+    }
+    .oferta-inclui li::before { content: '&#10003;'; color: var(--amarelo); font-weight: 900; flex-shrink: 0; }
+    .preco-de {
+      font-size: .9rem;
+      color: rgba(255,255,255,.5);
+      text-decoration: line-through;
+      margin-bottom: 4px;
+    }
+    .preco-por {
+      font-size: 3.5rem;
+      font-weight: 900;
+      color: var(--amarelo);
+      line-height: 1;
+      margin-bottom: 4px;
+    }
+    .preco-desc { font-size: .9rem; color: var(--off-white); margin-bottom: 32px; }
+    .garantia {
+      font-size: .85rem;
+      color: var(--off-white);
+      margin-top: 20px;
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* &#9472;&#9472; FAQ &#9472;&#9472; */
+    .section-faq {
+      background: var(--roxo-escuro);
+      padding: 72px 24px;
+    }
+    .section-faq h2 {
+      font-size: clamp(1.6rem, 4vw, 2.2rem);
+      font-weight: 900;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .faq-list { max-width: 640px; margin: 0 auto; display: flex; flex-direction: column; gap: 16px; }
+    details {
+      background: rgba(255,255,255,.06);
+      border: 1px solid rgba(255,255,255,.1);
+      border-radius: 12px;
+      padding: 0;
+      cursor: pointer;
+    }
+    details[open] { border-color: var(--amarelo); }
+    summary {
+      font-weight: 700;
+      font-size: 1rem;
+      padding: 18px 20px;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+    }
+    summary::after { content: '+'; font-size: 1.4rem; color: var(--amarelo); flex-shrink: 0; }
+    details[open] summary::after { content: '&#8722;'; }
+    .faq-resposta { padding: 0 20px 18px; font-size: .95rem; color: var(--off-white); line-height: 1.6; }
+
+    /* &#9472;&#9472; RODAP&#201; &#9472;&#9472; */
+    footer {
+      background: #0a0118;
+      padding: 32px 24px;
+      text-align: center;
+      font-size: .82rem;
+      color: rgba(255,255,255,.4);
+    }
+    footer a { color: rgba(255,255,255,.5); text-decoration: none; }
+    footer .footer-logo { width: 80px; margin-bottom: 12px; filter: brightness(0) invert(1); opacity: .5; }
+
+    /* &#9472;&#9472; STICKY CTA MOBILE &#9472;&#9472; */
+    .sticky-cta {
+      display: none;
+      position: fixed;
+      bottom: 0; left: 0; right: 0;
+      background: var(--amarelo);
+      padding: 14px 24px;
+      text-align: center;
+      z-index: 100;
+      box-shadow: 0 -4px 20px rgba(0,0,0,.3);
+    }
+    .sticky-cta a {
+      color: var(--roxo-escuro);
+      font-weight: 900;
+      font-size: 1rem;
+      text-decoration: none;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+    }
+    @media (max-width: 640px) { .sticky-cta { display: block; } }
+
+    /* &#9472;&#9472; DIVISOR &#9472;&#9472; */
+    .divisor {
+      width: 60px; height: 3px;
+      background: var(--amarelo);
+      margin: 0 auto 32px;
+      border-radius: 2px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Barra de urg&#234;ncia -->
+<div class="topbar">&#128293; ACESSO IMEDIATO AP&#211;S A COMPRA &#8212; R$37 UMA VEZ S&#211;</div>
+
+<!-- &#9472;&#9472; HERO &#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472; -->
+<section class="hero">
+  <div class="container">
+    <img src="logo-amuleto-branco.png" alt="Amuleto Comunica&#231;&#227;o" class="logo-hero">
+    <p class="hero-eyebrow">Para pequenos empreendedores</p>
+    <h1>
+      Chega de ficar horas pensando<br>
+      no que <span class="amarelo">escrever pra vender.</span>
+    </h1>
+    <p class="hero-sub">
+      50 prompts prontos para o ChatGPT &#8212; copie, cole e tenha textos de vendas, posts e atendimento em segundos.
+    </p>
+    <a href="https://pay.hotmart.com/J106100127L" class="btn-cta large" target="_blank">
+      QUERO OS 50 PROMPTS AGORA
+    </a>
+    <p class="hero-price">&#10003; R$37 &#183; Acesso imediato &#183; Sem mensalidade</p>
+  </div>
+</section>
+
+<!-- &#9472;&#9472; DOR &#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472; -->
+<section class="section-dor">
+  <div class="container">
+    <h2>Voc&#234; reconhece <span class="amarelo">algum desses</span> momentos?</h2>
+    <div class="divisor"></div>
+    <ul class="dor-list">
+      <li>Abre o Instagram pra postar e fica 1 hora sem saber o que escrever</li>
+      <li>Escreve uma legenda, apaga tudo, reescreve e no final n&#227;o posta nada</li>
+      <li>Posta todo dia mas as vendas n&#227;o aparecem &#8212; e voc&#234; n&#227;o entende por qu&#234;</li>
+      <li>Sente que seu concorrente escreve melhor e vende mais que voc&#234;</li>
+      <li>N&#227;o tem dinheiro pra contratar um copywriter e faz tudo sozinho</li>
+    </ul>
+    <p class="virada">o problema n&#227;o &#233; voc&#234; &#8212; &#233; falta da ferramenta certa.</p>
+  </div>
+</section>
+
+<!-- &#9472;&#9472; SOLU&#199;&#195;O &#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472; -->
+<section class="section-solucao">
+  <div class="container">
+    <h2>Apresentando:<br><span class="amarelo">Prompts que Vendem</span></h2>
+    <p>
+      50 prompts testados que voc&#234; digita no ChatGPT e recebe textos prontos para vender &#8212; posts, legendas, ofertas, respostas de atendimento e muito mais.
+    </p>
+
+    <div class="categorias">
+      <div class="categoria-card">
+        <div class="cat-num">10 PROMPTS</div>
+        <div class="cat-icon">&#128241;</div>
+        <div class="cat-titulo">Conte&#250;do para Instagram</div>
+        <div class="cat-desc">Posts, carross&#233;is, Reels, bastidores, prova social e mais.</div>
+      </div>
+      <div class="categoria-card">
+        <div class="cat-num">10 PROMPTS</div>
+        <div class="cat-icon">&#128176;</div>
+        <div class="cat-titulo">Vendas e Ofertas</div>
+        <div class="cat-desc">Copys de venda, resposta para "t&#225; caro", scripts de fechamento.</div>
+      </div>
+      <div class="categoria-card">
+        <div class="cat-num">10 PROMPTS</div>
+        <div class="cat-icon">&#129309;</div>
+        <div class="cat-titulo">Atendimento ao Cliente</div>
+        <div class="cat-desc">Respostas r&#225;pidas, reclama&#231;&#245;es, p&#243;s-venda e fideliza&#231;&#227;o.</div>
+      </div>
+      <div class="categoria-card">
+        <div class="cat-num">10 PROMPTS</div>
+        <div class="cat-icon">&#9993;&#65039;</div>
+        <div class="cat-titulo">WhatsApp e E-mail</div>
+        <div class="cat-desc">Mensagens de follow-up, confirma&#231;&#227;o de pedido e reengajamento.</div>
+      </div>
+      <div class="categoria-card">
+        <div class="cat-num">10 PROMPTS</div>
+        <div class="cat-icon">&#129504;</div>
+        <div class="cat-titulo">Estrat&#233;gia e Planejamento</div>
+        <div class="cat-desc">Calend&#225;rio de conte&#250;do, posicionamento e ideias para o m&#234;s inteiro.</div>
+      </div>
+    </div>
+
+    <a href="https://pay.hotmart.com/J106100127L" class="btn-cta" target="_blank">
+      QUERO OS 50 PROMPTS &#8212; R$37
+    </a>
+  </div>
+</section>
+
+<!-- &#9472;&#9472; COMO FUNCIONA &#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472; -->
+<section class="section-como">
+  <div class="container">
+    <h2>Como funciona?<br><span class="script amarelo">simples assim:</span></h2>
+    <div class="passos">
+      <div class="passo">
+        <div class="passo-num">1</div>
+        <div class="passo-texto">
+          <strong>Voc&#234; compra e acessa na hora</strong>
+          <span>Pagamento aprovado &#8594; acesso imediato ao material completo.</span>
+        </div>
+      </div>
+      <div class="passo">
+        <div class="passo-num">2</div>
+        <div class="passo-texto">
+          <strong>Abre o ChatGPT (gratuito)</strong>
+          <span>N&#227;o precisa de plano pago &#8212; a vers&#227;o gratuita do ChatGPT funciona perfeitamente.</span>
+        </div>
+      </div>
+      <div class="passo">
+        <div class="passo-num">3</div>
+        <div class="passo-texto">
+          <strong>Copia o prompt, cola e personaliza</strong>
+          <span>Substitui o que est&#225; entre [colchetes] com suas informa&#231;&#245;es.</span>
+        </div>
+      </div>
+      <div class="passo">
+        <div class="passo-num">4</div>
+        <div class="passo-texto">
+          <strong>Recebe o texto pronto em segundos</strong>
+          <span>Post, legenda, oferta, resposta &#8212; texto que vende, sem esfor&#231;o.</span>
+        </div>
+      </div>
+    </div>
+    <a href="https://pay.hotmart.com/J106100127L" class="btn-cta" target="_blank">
+      COME&#199;AR AGORA &#8212; R$37
+    </a>
+  </div>
+</section>
+
+<!-- &#9472;&#9472; PARA QUEM &#201; &#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472; -->
+<section class="section-paraquem">
+  <div class="container">
+    <h2>Para quem &#233; <span class="amarelo">este material?</span></h2>
+    <div class="divisor"></div>
+    <ul class="paraquem-list">
+      <li>Pequenos empreendedores que vendem nas redes sociais</li>
+      <li>Aut&#244;nomos e freelancers que precisam captar clientes online</li>
+      <li>Lojistas f&#237;sicos que querem vender pelo Instagram e WhatsApp</li>
+      <li>Quem n&#227;o tem equipe e faz o marketing sozinho</li>
+      <li>Quem quer economizar tempo e parar de depender de ag&#234;ncia</li>
+      <li>Quem nunca usou ChatGPT e quer come&#231;ar do jeito certo</li>
+    </ul>
+    <a href="https://pay.hotmart.com/J106100127L" class="btn-cta" target="_blank">
+      ESSE SOU EU &#8212; QUERO COMPRAR
+    </a>
+  </div>
+</section>
+
+<!-- &#9472;&#9472; OFERTA &#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472; -->
+<section class="section-oferta">
+  <div class="container">
+    <div class="oferta-box">
+      <p class="oferta-titulo">Oferta especial de lan&#231;amento</p>
+      <p class="oferta-produto">Prompts que Vendem</p>
+
+      <ul class="oferta-inclui">
+        <li>50 prompts prontos e testados para o ChatGPT</li>
+        <li>5 categorias: Instagram, Vendas, Atendimento, WhatsApp e Estrat&#233;gia</li>
+        <li>Acesso imediato ap&#243;s o pagamento</li>
+        <li>Funciona com a vers&#227;o gratuita do ChatGPT</li>
+        <li>Atualiza&#231;&#245;es futuras sem custo adicional</li>
+      </ul>
+
+      <p class="preco-de">De R$97</p>
+      <p class="preco-por">R$37</p>
+      <p class="preco-desc">pagamento &#250;nico &#183; sem mensalidade</p>
+
+      <a href="https://pay.hotmart.com/J106100127L" class="btn-cta large" target="_blank">
+        COMPRAR AGORA
+      </a>
+
+      <p class="garantia">&#128274; Pagamento seguro via Hotmart &#183; Cart&#227;o, Pix ou Boleto</p>
+    </div>
+  </div>
+</section>
+
+<!-- &#9472;&#9472; FAQ &#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472; -->
+<section class="section-faq">
+  <div class="container">
+    <h2>Perguntas frequentes</h2>
+    <div class="faq-list">
+      <details>
+        <summary>Precisa saber usar o ChatGPT?</summary>
+        <p class="faq-resposta">N&#227;o. O material foi feito para quem nunca usou o ChatGPT. Cada prompt vem com instru&#231;&#245;es simples de como usar e um exemplo de resultado esperado.</p>
+      </details>
+      <details>
+        <summary>Precisa pagar pelo ChatGPT?</summary>
+        <p class="faq-resposta">N&#227;o precisa! A vers&#227;o gratuita do ChatGPT (chat.openai.com) funciona perfeitamente com todos os prompts do material.</p>
+      </details>
+      <details>
+        <summary>Como recebo o material?</summary>
+        <p class="faq-resposta">Ap&#243;s a confirma&#231;&#227;o do pagamento, voc&#234; recebe o link de acesso por e-mail em minutos. O acesso &#233; imediato.</p>
+      </details>
+      <details>
+        <summary>Funciona para qualquer tipo de neg&#243;cio?</summary>
+        <p class="faq-resposta">Sim! Os prompts s&#227;o feitos para serem adaptados ao seu neg&#243;cio. Voc&#234; substitui o que est&#225; entre [colchetes] pelas informa&#231;&#245;es do seu produto ou servi&#231;o.</p>
+      </details>
+      <details>
+        <summary>E se eu n&#227;o gostar?</summary>
+        <p class="faq-resposta">A Hotmart oferece garantia de 7 dias. Se n&#227;o ficar satisfeito por qualquer motivo, basta pedir o reembolso e devolvemos 100% do valor.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- &#9472;&#9472; FOOTER &#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472; -->
+<footer>
+  <img src="logo-amuleto-branco.png" alt="Amuleto Comunica&#231;&#227;o" class="footer-logo">
+  <p>&#169; 2025 Amuleto Comunica&#231;&#227;o &#183; CNPJ 00.000.000/0001-00</p>
+  <p style="margin-top:6px">
+    <a href="#">Pol&#237;tica de Privacidade</a> &#183; <a href="#">Termos de Uso</a>
+  </p>
+</footer>
+
+<!-- Sticky CTA mobile -->
+<div class="sticky-cta">
+  <a href="https://pay.hotmart.com/J106100127L" target="_blank">
+    COMPRAR AGORA &#183; R$37 &#8594;
+  </a>
+</div>
+
+</body>
+</html>
